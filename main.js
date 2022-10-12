@@ -20,3 +20,12 @@ async function getMemes() {
 
 getJokes();
 getMemes();
+
+/*
+fetch(`https://alpha-meme-maker.herokuapp.com/memes/${randomID}/`)
+    .then(resp => resp.json())
+    .then(dataObj => {
+        let img = dataObj.data.image;
+        memeElm.setAttribute("src", `${img}`);
+    })
+*/
